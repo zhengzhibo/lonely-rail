@@ -1,6 +1,6 @@
 <?php
 /**
- * 这是 Typecho 0.9 系统的一套默认皮肤
+ * lonely rail
  * 
  * @package LonelyRail.com
  * @author zzb
@@ -30,6 +30,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
     <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
 </div><!-- end #main-->
-
-<?php $this->need('sidebar.php'); ?>
+<!-- 
+<?php $this->need('sidebar.php'); ?> -->
 <?php $this->need('footer.php'); ?>
